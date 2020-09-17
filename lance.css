@@ -1,0 +1,35 @@
+.container {
+  height: 2400px;
+  background: green;
+  margin-top 20px;
+  margin-right: 16%;
+  margin-left: 16%;
+  display: grid;
+  grid-template-rows: 135px 290px 280px auto 110px;
+  gap: 3px;
+}
+
+.divOne {
+  grid-row: 1;
+  background: lightblue;
+}
+
+.divTwo {
+  grid-row: 2;
+  background: lightblue;
+}
+
+.divThree {
+  grid-row: 3;
+  background: lightblue;
+}
+
+.divFour {
+  grid-row: 4;
+  background: lightblue;
+}
+
+.divFive {
+  grid-row: 5;
+  background: lightblue;
+}
