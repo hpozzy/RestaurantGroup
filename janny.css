@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  font-family: "Helvetica", "sans-serif";
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.one {
+   border: 1px solid grey;
+   position: absolute;
+ display: flex;
+}
+
+/* .two {
+   border: 1px solid grey;
+} */
+
+#logo {
+   width: 60px;
+}
+
+#media img {
+  width: 55px;
+  height: 55px;
+  margin: 10px 5px;
+}
+
+
