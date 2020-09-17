@@ -2,13 +2,13 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 .middleContainer {
-  margin-left: 16%;
-  margin-right: 16%;
+  margin-left: 9%;
+  margin-right: 9%;
   grid-row: 3;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   gap: 10px;
-  height: 280px;
+  height: 320px;
 }
 #latestNews {
   grid-column: 1;
