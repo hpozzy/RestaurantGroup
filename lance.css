@@ -6,30 +6,103 @@
   margin-left: 16%;
   display: grid;
   grid-template-rows: 135px 290px 280px auto 110px;
-  gap: 3px;
+  gap: 20px;
 }
 
-.divOne {
+#divOne {
   grid-row: 1;
   background: lightblue;
 }
 
-.divTwo {
+#divTwo {
   grid-row: 2;
   background: lightblue;
 }
 
-.divThree {
+#divThree {
   grid-row: 3;
   background: lightblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
-.divFour {
+#card1{
+  grid-column: 1;
+  background: red;
+}
+
+#card2{
+  grid-column: 2;
+  background: red;
+}
+
+#card3{
+  grid-column: 3;
+  background: red;
+}
+
+#divFour {
+  display: grid;
+  grid-template-columns: auto 220px;
   grid-row: 4;
+  gap: 75px;
   background: lightblue;
+  margin-top: 20px;
 }
 
-.divFive {
+#divFourColumnOne {
+  grid-column: 1;
+}
+
+#label7header {
+  display: grid;
+  grid-template-columns: 370px auto;
+  height: 60px;
+  background: yellow;
+  margin-top: 25px;
+}
+
+#label7headerLeft {
+  grid-column: 1;
+  display: flex;
+}
+
+.secSevenBorder {
+  width: 125px;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+#menuHeaderTab {
+  width: 105px;
+}
+
+#label7headerRight {
+  grid-column: 2;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  margin-left: -12px;
+}
+
+#divFourColumnTwo {
+  grid-column: 2;
+}
+
+#ourStoryImage {
+  height: 320px;
+  width: 100%;
+  border: 1px solid
+}
+
+.labelEightImages {
+  width: 220px;
+  height: 220px;
+  background: blue;
+  margin-bottom: 30px;
+}
+
+#divFive {
   grid-row: 5;
   background: lightblue;
 }
