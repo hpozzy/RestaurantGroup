@@ -1,11 +1,14 @@
+body {
+  margin-top: 0;
+}
+
 .container {
   height: 2400px;
   background: green;
-  margin-top 20px;
-  margin-right: 16%;
-  margin-left: 16%;
+  margin-right: 15%;
+  margin-left: 15%;
   display: grid;
-  grid-template-rows: 135px 290px 280px auto 110px;
+  grid-template-rows: 110px 350px 270px auto 70px;
   gap: 20px;
 }
 
@@ -27,28 +30,27 @@
   gap: 10px;
 }
 
-#card1{
+#card1 {
   grid-column: 1;
   background: red;
 }
 
-#card2{
+#card2 {
   grid-column: 2;
   background: red;
 }
 
-#card3{
+#card3 {
   grid-column: 3;
   background: red;
 }
 
 #divFour {
   display: grid;
-  grid-template-columns: auto 220px;
+  grid-template-columns: auto 280px;
   grid-row: 4;
   gap: 75px;
   background: lightblue;
-  margin-top: 20px;
 }
 
 #divFourColumnOne {
@@ -72,16 +74,48 @@
   width: 125px;
   border-top: 1px solid grey;
   border-left: 1px solid grey;
+  text-align: center;
+  padding-top: 20px;
 }
 
 #menuHeaderTab {
   width: 105px;
 }
 
+#reservationHeaderTab {
+  border-right: 1px solid grey;
+}
+
+#menuSectionHeader {
+  margin-top: 40px;
+  border-bottom: 1px solid grey;
+  padding-left: 10px;
+}
+
+#menuAppetizerHeader {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 10px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+#menuEntreeHeader,
+#menuDessertHeader {
+  margin-bottom: 5px;
+  border-bottom: 1px solid grey;
+  padding-left: 10px;
+}
+
+.menuItems {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 #label7headerRight {
   grid-column: 2;
   border-bottom: 1px solid grey;
-  border-left: 1px solid grey;
   margin-left: -12px;
 }
 
@@ -92,12 +126,12 @@
 #ourStoryImage {
   height: 320px;
   width: 100%;
-  border: 1px solid
+  border: 1px solid;
 }
 
 .labelEightImages {
-  width: 220px;
-  height: 220px;
+  width: 280px;
+  height: 280px;
   background: blue;
   margin-bottom: 30px;
 }
