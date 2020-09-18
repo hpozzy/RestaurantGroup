@@ -8,23 +8,28 @@ html {
   margin: 0 auto;
 }
 .one {
-   border: 1px solid grey;
-   position: absolute;
- display: flex;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
 }
 
-/* .two {
-   border: 1px solid grey;
-} */
+.two {
+  border: 1px solid grey;
+  height: 350px;
+  background-image: url("images/inside.jpg");
+  background-position-x: 30%;
+  background-position-y: 55%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
 #logo {
-   width: 60px;
+  width: 20px;
+  height: 20px;
 }
 
 #media img {
-  width: 55px;
-  height: 55px;
-  margin: 10px 5px;
+  width: 40px;
+  height: 40px;
+  margin: 35px 5px;
 }
-
-
