@@ -132,3 +132,18 @@ label {
   width: 20%;
   padding: 20px;
 }
+
+#buttonModal {
+  margin-top: 35px;
+  background-color: #528a29;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  height: 20px;
+  width: 75px;
+  border: none;
+}
+
+#modalImg {
+  padding-left: 20px;
+}
