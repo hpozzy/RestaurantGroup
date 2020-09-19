@@ -19,9 +19,11 @@ html {
 }
 #divTwo {
   height: 350px;
-  background-image: url("images/header.png");
+  background-image: url("images/header.jpg");
   background-size: cover;
-  background-position-y: 60%;
+  background-position-y: 85%;
   background-repeat: no-repeat;
 }
+
+
 
