@@ -21,15 +21,15 @@
       <div id="divFourColumnOne">
         <div id="label7header">
           <div id="label7headerLeft">
-            <div id="storyHeaderTab" class="secSevenBorder">Our Story</div>
-            <div id="menuHeaderTab" class="secSevenBorder">Menu</div>
-            <div id="reservationHeaderTab" class="secSevenBorder">Reservation</div>
+            <div id="storyHeaderTab" class="secSevenBorder label7tabs active-btn"">Our Story</div>
+            <div id=" menuHeaderTab" class="secSevenBorder label7tabs">Menu</div>
+            <div id="reservationHeaderTab" class="secSevenBorder label7tabs">Reservation</div>
           </div>
           <div id="label7headerRight">
           </div>
         </div>
         <div id="label7main">
-          <!-- <div id="label7mainStory">
+          <div id="label7mainStory" class="label7divs active">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -47,15 +47,37 @@
               nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
               anim id est laborum.</p>
-          </div> -->
-          <div id="label7mainMenu">
+          </div>
+          <div id="label7mainMenu" class="label7divs">
             <div id="menuSectionHeader">Our Dinner Selections...</div>
-            <div id="menuAppetizerHeader">Appetizers</div>
-            <div class="menuItems" id="menuAppetizers">dsfdsfsdf</div>
-            <div id="menuEntreeHeader">Entrees</div>
-            <div class="menuItems" id="menuEntrees">dsasadsadds</div>
-            <div id="menuDessertHeader">Deserts</div>
-            <div class="menuItems" id="menuDesserts">fdsfsdfsd</div>
+
+            <div id="menuAppetizerHeader" class="menuHeaders">Appetizers</div>
+            <div id="menuAppetizers" class="menuMarginBottom"></div>
+
+            <div id="menuEntreeHeader" class="menuHeaders">Entrees</div>
+            <div id="menuEntrees" class="menuMarginBottom"></div>
+
+            <div id="menuDessertHeader" class="menuHeaders">Desserts</div>
+            <div id="menuDesserts" class="menuMarginBottom"></div>
+
+          </div>
+          <div id="reservation" class="label7divs">
+            <form action="" method="GET">
+              <label for="fullname">Full Name</label><br />
+              <input class="form-input" type="text" id="fullName" name="fname" /><br />
+              <label for="numberofguest">Number of Guests</label><br />
+              <input class="form-input" type="text" id="numberOfGuest" name="guest" /><br />
+              <label for="date">Date</label><br />
+              <input class="form-input" type="text" id="reservationDate" name="rDate" /><br />
+              <label for="specialNotes">Special Notes</label><br />
+              <textarea class="form-input" name="specialNotes" id="specialNotes" cols="30" rows="8"></textarea> <br />
+              <label for="seating">Seating Preference</label><br />
+              <select class="form-input" id="seatingP" name="seating">
+                <option value="indoor">Indoor</option>
+                <option value="outdoor">Outdoor</option>
+              </select>
+              <br>
+              <button id='reservationButton' type="button">Reserve Table</button>
           </div>
         </div>
       </div>
@@ -68,8 +90,9 @@
         <img src="" alt="" class="labelEightImages">
       </div>
     </div>
-  </div>
-  <div id="divFive"></div>
+    <div id="divFive">
+      <hr>
+    </div>
   </div>
 </body>
 <script src="lance.js"></script>
