@@ -6,7 +6,6 @@
 .middleContainer {
   margin-left: 16%;
   margin-right: 16%;
-  grid-row: 3;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   gap: 10px;
@@ -65,7 +64,7 @@ h5 {
   font-size: size 14px;
   color: black;
 }
-#reservation {
+/* #reservation {
   padding-bottom: 15px;
 }
 
@@ -111,9 +110,9 @@ label {
   margin-bottom: 10px;
   width: 15%;
   height: 23px;
-}
+} */
 
-#modal {
+/* #modal {
   position: fixed;
   font-family: Arial, Helvetica, sans-serif;
   top: 0;
@@ -157,4 +156,4 @@ label {
   padding-top: 25px;
   color: #606060;
   align-items: center;
-}
+} */
