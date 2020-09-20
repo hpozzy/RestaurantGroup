@@ -1,12 +1,12 @@
 body {
   margin-top: 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-family: helvetica;
   line-height: 18px;
 }
 
 .container {
-  height: 3000px;
+  height: 2700px;
   margin-right: 16%;
   margin-left: 16%;
   display: grid;
@@ -20,6 +20,8 @@ body {
 
 #divTwo {
   grid-row: 2;
+  background-image: url("");
+  background-position: 50% 55%;
 }
 
 #divThree {
@@ -74,8 +76,14 @@ body {
   border-bottom: 1px solid grey;
 }
 
-#menuHeaderTab {
-  width: 105px;
+#label7mainStory {
+  font-size: 14px;
+}
+
+#ourStoryImage {
+  height: 320px;
+  width: 100%;
+  border: 1px solid;
 }
 
 #menuSectionHeader {
@@ -114,17 +122,101 @@ body {
   display: block;
 }
 
-.active-btn {
+.activeTab {
   border-top: 1px solid grey;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
   border-bottom: none;
 }
 
-#reservation {
-  padding-top: 30px;
-  padding-bottom: 15px;
+.menuMarginBottom {
+  margin-bottom: 20px;
 }
+
+.menuItems {
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: 98% 2%;
+}
+
+.menuName {
+  grid-column: 1;
+  padding-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menuName p {
+  border-bottom: 1px dotted gray;
+}
+
+.menuPrice {
+  grid-column: 2;
+  position: relative;
+  bottom: -10%;
+}
+
+.menuPrice p {
+  font-size: 16px;
+}
+
+.menuInfo {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.menuDescription {
+  grid-column: 1;
+  font-size: 14px;
+}
+
+.menuLabels {
+  grid-column: 2;
+  border-left: 1px dotted gray;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.threeIcons {
+  position: relative;
+}
+
+.extraDetails {
+  visibility: hidden;
+  width: 120px;
+  background-color: lightgrey;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.threeIcons:hover .extraDetails {
+  visibility: visible;
+  opacity: 1;
+}
+
+#label7headerRight {
+  grid-column: 2;
+  border-bottom: 1px solid grey;
+}
+
+#divFourColumnTwo {
+  grid-column: 2;
+}
+
+#label7reservation {
+  padding-top: 30px;
+}
+
 #reservationButton {
   background-color: black;
   color: white;
@@ -147,87 +239,32 @@ label {
 #fullName {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 25%;
+  width: 50%;
   height: 23px;
 }
 #numberOfGuest {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 8%;
+  width: 23%;
   height: 23px;
 }
 #specialNotes {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 35%;
-  height: 63px;
+  width: 55%;
+  height: 80px;
 }
 #reservationDate {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 15%;
+  width: 35%;
   height: 23px;
 }
 
-.menuMarginBottom {
-  margin-bottom: 20px;
-}
-
-.menuItems {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: grid;
-  grid-template-columns: 98% 2%;
-}
-
-.menuName {
-  grid-column: 1;
-  padding-bottom: 0;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.menuName p {
-  border-bottom: 1px dotted gray;
-}
-
-.menuPrice {
-  grid-column: 2;
-}
-
-.menuInfo {
-  display: grid;
-  grid-template-columns: 80% 20%;
-}
-
-.menuDescription {
-  grid-column: 1;
-}
-
-.menuLabels {
-  grid-column: 2;
-  border-left: 1px dotted gray;
-  padding-left: 10px;
-}
-
-.menuLabels button {
-  margin-top: 14%;
-  width: 33%;
-}
-
-#label7headerRight {
-  grid-column: 2;
-  border-bottom: 1px solid grey;
-}
-
-#divFourColumnTwo {
-  grid-column: 2;
-}
-
-#ourStoryImage {
-  height: 320px;
-  width: 100%;
-  border: 1px solid;
+.foodPhotosHeader {
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 5px;
 }
 
 .labelEightImages {
