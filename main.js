@@ -34,7 +34,7 @@ const divThree = `<div class="middleContainer">
     <span style="color: black"
       ><strong>Lorem Ipsum dolor sit amet</strong></span
     >
-    <span style="color: black"><strong>June 7</strong></span>
+    <span style="color: black"><strong>April 20</strong></span>
   </div>
   <div>
     <p id="paragraphText">
