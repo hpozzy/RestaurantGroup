@@ -1,0 +1,160 @@
+* {
+  font-size: 11px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #606060;
+}
+.middleContainer {
+  margin-left: 16%;
+  margin-right: 16%;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 10px;
+  height: 230px;
+}
+#latestNews {
+  grid-column: 1;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #e8e8e8;
+}
+#todaysSpecial {
+  grid-column: 2;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #e8e8e8;
+}
+#ourLocation {
+  grid-column: 3;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #e8e8e8;
+}
+#imgSpecial {
+  width: 100%;
+  height: 125px;
+}
+
+.mapLink {
+  width: 310px;
+}
+
+h5 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#paragraphText {
+  justify-content: center;
+}
+#address {
+  padding-top: 10px;
+}
+
+#todaysSpecialImg {
+  background-image: url(https://images.unsplash.com/photo-1562565651-7d4948f339eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2389&q=80);
+  height: 8rem;
+  background-size: 100%;
+}
+#dateLatestNews {
+  display: flex;
+  justify-content: space-between;
+  font-size: size 14px;
+  color: black;
+}
+#reservation {
+  padding-bottom: 15px;
+}
+
+#reservationButton {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 17px;
+  height: 35px;
+  width: 135px;
+  border: none;
+}
+label {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.form-input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#fullName {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+  height: 23px;
+}
+#numberOfGuest {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 8%;
+  height: 23px;
+}
+#specialNotes {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 35%;
+  height: 63px;
+}
+#reservationDate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 15%;
+  height: 23px;
+}
+
+#modal {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+}
+.modalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 20%;
+  padding: 20px;
+}
+
+#buttonModal {
+  margin-top: 35px;
+  background-color: #528a29;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  height: 20px;
+  width: 75px;
+  border: none;
+}
+
+#modalImg {
+  padding-left: 25px;
+}
+
+#footer {
+  width: 100%;
+  height: 100px;
+  border-top: solid 1px #c6c6c6;
+  margin-top: 250px;
+  font-size: 10px;
+  padding-top: 25px;
+  color: #606060;
+  align-items: center;
+}
